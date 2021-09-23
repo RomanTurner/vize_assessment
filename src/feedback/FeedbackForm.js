@@ -65,7 +65,7 @@ function FeedbackForm() {
       sx={{
         bgcolor: 'background.paper',
         boxShadow: 1,
-        mt: 3,
+        mt: 2,
         borderRadius: '7px',
       }}>
       <Image src={TopDecor} />
