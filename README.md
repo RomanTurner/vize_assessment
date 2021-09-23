@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# VIZE Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The feedback form is just styled after the phone app design.
+I wanted to show that I could follow a design pattern if it was sent to me. 
 
-## Available Scripts
+- I used the fonts family, sizes, and colors. 
+- I used Material Ui to quickly mock up the design so some edge cases are not exact to the figma, but the style could be overridden. 
+- The image is a hacky solution, again to just mirror the design with the time limit. I didn't want to spend more than a couple hours as per our communication. 
 
-In the project directory, you can run:
+**I am wanting to see how you would handle the state for the form without using a third party library.**
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-[x] Used React Hooks to create a controlled form component. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+**What would (I) do for validation on the front-end etc.**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+-[x] I used material ui textarea validations for required fields. 
+Notes: This is a very simple form that only has text data and without many edge cases so I let the requirements handle the validations. 
+If I had the sections available I would create a select from all of the sections in order to help the user not input an incorrect section. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**mocking of an API request, and how you would handle something like that.** 
+-[x] Created an example of how I would use the Fetch API if I had a valid end point.
+In lieu of an API endpoint I used the loading component and a setTimeout for the submit button. 
 
-### `yarn eject`
+**If I had More Time**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+When two hours hit I was just about to start testing. 
+Notes: With using material ui, a heavily tested framework a lot of the typical jest tests wouldn't be necessary but I would have liked 
+to use the react testing library to have some test coverage. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Clone * Yarn * Start 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks again for the opprotunity Alex! 
