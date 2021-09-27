@@ -63,6 +63,7 @@ function Inputs({loading, section, setSection, setFeedback, feedback }) {
         variant='filled'
         id='feedback'
         label='Feedback'
+        placeholder='Let us know here...'
         required
         value={feedback}
         onChange={(e) => handleChange(e)}

@@ -9,7 +9,7 @@ function Buttons({ loading }) {
         variant='outlined'
         size='large'
         sx={{ borderRadius: '20px', width: '150px' }}>
-        Back
+        BACK
       </Button>
       <LoadingButton
         sx={{ borderRadius: '20px', fontWeight: 600, width: '150px' }}
@@ -18,7 +18,7 @@ function Buttons({ loading }) {
         loading={loading}
         loadingPosition='start'
         variant='contained'>
-        Submit
+        SUBMIT
       </LoadingButton>
     </Stack>
   );
